@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">WiFi分析儀</string>
+    <string name="app_copyright">版權 \u00A9 2015 \u002D 2017</string>
+
+
+    <string name="channel_rating_best">最佳頻道：</string>
+    <string name="channel_rating_best_none">無</string>
+    <string name="channel_rating_best_alternative">，嘗試其他WiFi頻段</string>
+    <string name="channel_rating_heading_rating">頻道評分</string>
+    <string name="channel_rating_heading_number">頻道數</string>
+    <string name="channel_rating_heading_count">接入點計數</string>
+    <string name="channel_short_name">頻道</string>
+
+    <string name="country_code_title">國家</string>
+    <string name="wifi_band_title">WiFi頻段</string>
+    <string name="theme_title">主題</string>
+
+    <string name="login_with_amazon">Login with Amazon</string>
+    <string name="logout">Logout</string>
+    <string name="default_message">Welcome to Login with Amazon!\nIf this is your first time logging in, you will be asked to give permission for this application to access your profile data.</string>
+    <string name="login_button_content_description">"Button for authorization through Login with Amazon"</string>
+    <string name="return_to_app">Return to App</string>
+
+
+
+
+
+
+
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_speed_test">Speed Test</string>
+    <string name="title_activity_log_data_consent">User Agreement for WiFi data analysis</string>
+    <string name="log_data_user_agreement">
+        Instructions text ... Press \'Agree\' to share your wifi signal data with us or press \'Deny\' or \'Decide Later\'. You can change it later in the settings.
+    </string>
+    <string name="iap_instrunction_text">
+        MyNetlyzer Pro provides two subscription plan, you need to purchase one of them.
+    </string>
+    <string name="log_data_please_enter_email">Please enter your amazon account email, your device nickname and press next</string>
+    <string name="log_data_purchased_plan">Purchased Plan</string>
+    <string name="agree">Agree</string>
+    <string name="disagree">Deny</string>
+    <string name="decidelater">Decide Later</string>
+    <string name="six_months_subs">Subscription - 6 months</string>
+    <string name="six_months_subs_bought">Subscription - 6 months(Purchased)</string>
+    <string name="one_year_subs">Subscription - 1 year</string>
+    <string name="one_year_subs_bought">Subscription - 1 year(Purchased)</string>
+    <string name="next">Next</string>
+    <string name="invalid_email_title">Invalid Email</string>
+    <string name="invalid_email_message">Please enter valid format email</string>
+    <string name="invalid_subscription">Invalid Subscription</string>
+    <string name="invalid_subscription_message">Please purchase a subscription plan</string>
+
+    <string name="continue_button">Continue</string>
+    <string name="confirm_subscription">Confirmation</string>
+    <string name="already_have_subscription_message">You currently have one or more valid subscriptions. Are you sure you want to purchase selected subscription plan?</string>
+
+    <string name="email_exist_message">An email account is exist, please use a different email.</string>
+    <string name="data_logging_agreement_setting">Data Logging Agreement</string>
+    <string name="data_logging_subscription_setting">Subscriptions Plan</string>
+    <string name="not_set">Not Set</string>
+
+    <string name="support_screen_instruction">Please open the following link on your desktop computer and login with your username and device key. You can find them in setting screen.</string>
+    <string name="support_screen_service_case_title">Service Case Number</string>
+    <string name="support_screen_service_case_default">Click the button below</string>
+    <string name="support_screen_connect_teamviewer_button_title">Connect Through TeamViewer</string>
+
+    <string name="action_speed_test">Speed Test</string>
+    <string name="action_network_speed_test">Network Speed Test</string>
+    <string name="action_network_scan">Network Scan</string>
+    <string name="action_settings">設置</string>
+    <string name="action_about">關於</string>
+    <string name="action_current_wifi">Current WiFi</string>
+    <string name="action_support">Customer Support</string>
+
+    <string name="action_speed_test_description">Speed Test</string>
+    <string name="action_network_speed_test_description">Network Speed Test shows you the download speeds of your network and latency response.</string>
+    <string name="action_network_scan_description">Scan your current network devices and get devices IP address and mac address.</string>
+    <string name="action_settings_description">Settings for country, account information and scan interval time.</string>
+    <string name="action_about_description">About the App.</string>
+    <string name="action_current_wifi_description">Current WiFi shows a pictorial view of available networks with signal strength and WiFi band used.</string>
+    <string name="action_support_description">Remote support by experts to analyze and recommend actions for your network.</string>
+    <string name="background_running_notice">MyNetLyzer Pro Is Working In Background</string>
+
+
+    <string name="button_ok">Ok</string>
+    <string name="button_cancel">取消</string>
+
+    <string name="device_key">Device Name and Key :</string>
+    <string name="username">Username :</string>
+
+</resources>

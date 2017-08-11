@@ -1,0 +1,35 @@
+
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<ListPreference-->
+        <!--android:defaultValue="@string/wifi_band_default"-->
+        <!--android:entries="@array/wifi_band_array"-->
+        <!--android:entryValues="@array/wifi_band_index_array"-->
+        <!--android:key="@string/wifi_band_key"-->
+        <!--android:persistent="true"-->
+        <!--android:summary="@string/wifi_band_summary"-->
+        <!--android:title="@string/wifi_band_title"/>-->
+
+    <com.keepics.mynetlyzer.util.ScanIntervalPreference
+        android:defaultValue="@integer/scan_interval_default"
+        android:key="@string/scan_interval_key"
+        android:persistent="true"
+        android:summary="@string/scan_interval_summary"
+        android:title="@string/scan_interval_title"/>
+
+    <!--<ListPreference-->
+        <!--android:defaultValue="@string/theme_default"-->
+        <!--android:entries="@array/theme_array"-->
+        <!--android:entryValues="@array/theme_index_array"-->
+        <!--android:key="@string/theme_key"-->
+        <!--android:persistent="true"-->
+        <!--android:summary="@string/theme_summary"-->
+        <!--android:title="@string/theme_title"/>-->
+
+    <com.keepics.mynetlyzer.util.CountrySetting
+        android:key="@string/country_code_key"
+        android:persistent="true"
+        android:summary="@string/country_code_summary"
+        android:title="@string/country_code_title"/>
+
+</PreferenceScreen>

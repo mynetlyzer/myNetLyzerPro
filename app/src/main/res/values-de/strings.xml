@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+    <string name="app_name">MyNetLyzer Pro</string>
+    <string name="app_copyright">Copyright \u00A9 2015 \u002D 2017</string>
+
+    <string name="channel_rating_best">Beste Kanäle:</string>
+    <string name="channel_rating_best_none">Keine</string>
+    <string name="channel_rating_best_alternative">, versuche alternativ das WLAN Frequenzband</string>
+    <string name="channel_rating_heading_rating">Kanalbewertung</string>
+    <string name="channel_rating_heading_number">Kanal</string>
+    <string name="channel_rating_heading_count">Anzahl Access Points</string>
+    <string name="channel_short_name">CH</string>
+
+    <string name="country_code_title">Land</string>
+    <string name="wifi_band_title">WLAN Frequenzbänder</string>
+    <string name="theme_title">Thema</string>
+
+    <string name="login_with_amazon">Login with Amazon</string>
+    <string name="logout">Logout</string>
+    <string name="default_message">Welcome to Login with Amazon!\nIf this is your first time logging in, you will be asked to give permission for this application to access your profile data.</string>
+    <string name="login_button_content_description">"Button for authorization through Login with Amazon"</string>
+    <string name="return_to_app">Return to App</string>
+
+
+
+
+
+    <string name="title_activity_home">Zuhause</string>
+    <string name="title_activity_speed_test">Geschwindigkeitstest</string>
+    <string name="title_activity_log_data_consent">Benutzervereinbarung für WiFi Datenanalyse</string>
+    <string name="log_data_user_agreement">
+        Um den besten Assistenten für die Verbesserung Ihrer WiFi Geschwindigkeit und Leistung bieten, muss MyNetLyzer Pro Ihr Wifi-Signal zu überwachen. Drücken Sie Zustimmen, um Ihre WiFi-Signaldaten mit uns zu teilen, oder drücken Sie Deny  oder Decide Later . Sie können es später in den Einstellungen ändern.
+    </string>
+    <string name="iap_instrunction_text">
+        MyNetlyzer Pro provides two subscription plan, you need to purchase one of them.
+    </string>
+    <string name="log_data_please_enter_email">Bitte geben Sie ein E-Mail-Konto ein und klicken Sie auf Weiter </string>
+    <string name="log_data_purchased_plan">Purchased Plan</string>
+    <string name="agree">Zustimmen</string>
+    <string name="disagree">Verweigern</string>
+    <string name="decidelater">Entscheide später</string>
+    <string name="six_months_subs">Subscription - 6 months</string>
+    <string name="six_months_subs_bought">Subscription - 6 months(Purchased)</string>
+    <string name="one_year_subs">Subscription - 1 year</string>
+    <string name="one_year_subs_bought">Subscription - 1 year(Purchased)</string>
+    <string name="next">Nächster</string>
+    <string name="invalid_email_title">Ungültige E-Mail</string>
+    <string name="invalid_email_message">Bitte geben Sie die gültige Format-E-Mail ein</string>
+    <string name="invalid_subscription">Invalid Subscription</string>
+    <string name="invalid_subscription_message">Please purchase a subscription plan</string>
+
+    <string name="continue_button">Continue</string>
+    <string name="confirm_subscription">Confirmation</string>
+    <string name="already_have_subscription_message">You currently have one or more valid subscriptions. Are you sure you want to purchase selected subscription plan?</string>
+
+    <string name="email_exist_message">Ein E-Mail-Konto ist vorhanden, bitte verwenden Sie eine andere E-Mail.</string>
+    <string name="data_logging_agreement_setting">Datenprotokollierungsvereinbarung</string>
+    <string name="data_logging_subscription_setting">Subscriptions Plan</string>
+    <string name="not_set">Nicht eingestellt</string>
+
+    <string name="support_screen_instruction">Bitte öffnen Sie den folgenden Link auf Ihrem Desktop-Computer und melden Sie sich mit Ihrem Benutzernamen und Ihrem Gerätetyp an. Sie finden sie im Einstellungsbildschirm.</string>
+    <string name="support_screen_service_case_title">Service Case Number</string>
+    <string name="support_screen_service_case_default">Click the button below</string>
+    <string name="support_screen_connect_teamviewer_button_title">Connect Through TeamViewer</string>
+
+    <string name="action_speed_test">Geschwindigkeitstest</string>
+    <string name="action_network_speed_test">Netzwerkgeschwindigkeitstest</string>
+    <string name="action_network_scan">Netzwerk-Scan</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="action_about">Über</string>
+    <string name="action_current_wifi">Aktuelles WiFi</string>
+    <string name="action_support">Kundendienst</string>
+
+    <string name="action_speed_test_description">Geschwindigkeitstest</string>
+    <string name="action_network_speed_test_description">Network Speed Test zeigt Ihnen die Downloadgeschwindigkeiten Ihrer Netzwerk- und Latenzantwort.</string>
+    <string name="action_network_scan_description">Scannen Sie Ihre aktuellen Netzwerkgeräte und erhalten Sie Geräte IP-Adresse und Mac-Adresse.</string>
+    <string name="action_settings_description">Einstellungen für Land, Kontoinformationen und Scanintervallzeit.</string>
+    <string name="action_about_description">Über die App.</string>
+    <string name="action_current_wifi_description">Aktuelle WiFi zeigt eine bildliche Ansicht der aktuellen Signalstärke in Ihrer WiFi-Band.</string>
+    <string name="action_support_description">Remote-Unterstützung von Experten zu analysieren und empfehlen Aktionen für Ihr Netzwerk.</string>
+    <string name="background_running_notice">MyNetLyzer Pro arbeitet im Hintergrund</string>
+
+    <string name="button_ok">Ok</string>
+    <string name="button_cancel">Abbrechen</string>
+
+    <string name="device_key">Device Name and Key :</string>
+    <string name="username">Username :</string>
+
+</resources>

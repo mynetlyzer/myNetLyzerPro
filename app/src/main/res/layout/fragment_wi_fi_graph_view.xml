@@ -1,0 +1,240 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical"
+    tools:context="com.keepics.mynetlyzer.graphscreen.WiFiGraphViewFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:orientation="vertical"
+        android:background="@drawable/round_corner_band_switch">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/connected_background"
+                android:layout_margin="2dp"
+                android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/wifi_graph_header_signal_icon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/wifi_graph_header_signal_db"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp" />
+
+                <TextView
+                    android:id="@+id/wifi_graph_header_signal_distance"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="vertical"
+                android:paddingLeft="10dp">
+
+                <TextView
+                    android:id="@+id/wifi_graph_header_ssid"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:textAlignment="textStart"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/wifi_graph_header_channel_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:lines="2"
+                    android:textAlignment="textStart"
+                    android:textSize="12sp" />
+
+                <!--<TextView-->
+                    <!--android:id="@+id/wifi_graph_header_more_detail"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="24dp"-->
+                    <!--android:textAlignment="textStart"-->
+                    <!--android:textSize="10sp" />-->
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/wifi_graph_channel_rating"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical|left"
+            android:text="Channel Rating: 2, 5, 6, 7, 9, 10, 11" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="2dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:id="@+id/wifi_graph_5g_bands">
+
+            <Button
+                android:id="@+id/wifi_graph_back"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/home"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:textSize="12sp" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginRight="15dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/play_button"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/play"
+                    android:focusableInTouchMode="true"
+                    android:textAlignment="center">
+
+                </Button>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:layout_margin="2dp"
+                    android:padding="2dp"
+                    android:background="@drawable/round_corner_band_switch">
+
+
+                    <Button
+                        android:id="@+id/wifi_graph_band_set1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="34dp"
+                        android:text="2.4GHz"
+                        android:textSize="12sp"
+                        android:background="@drawable/button_states_look"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true" />
+
+                    <Button
+                        android:id="@+id/wifi_graph_band_set2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="34dp"
+                        android:text="5GHz"
+                        android:textSize="12sp"
+                        android:background="@drawable/button_states_look"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/wifi_graph_5g_band1"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:background="@drawable/button_states_look"
+                android:text="36-64"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/wifi_graph_5g_band2"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:background="@drawable/button_states_look"
+                android:textSize="10sp"
+                android:text="100-144"/>
+
+            <Button
+                android:id="@+id/wifi_graph_5g_band3"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:background="@drawable/button_states_look"
+                android:textSize="10sp"
+                android:text="149-165"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line_chart_container"
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:background="@drawable/round_corner_band_switch"
+        android:layout_weight="1"
+        android:padding="4dp"
+        android:orientation="horizontal">
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/line_chart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/dark_grey">
+
+        </com.github.mikephil.charting.charts.LineChart>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5"
+            android:background="@color/channel">
+
+            <ListView
+                android:id="@+id/wifi_graph_view_channel_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:listSelector="@color/warning_color"
+                android:scrollbarSize="3dp"
+                android:scrollbarStyle="outsideOverlay"
+                android:scrollbars="vertical"
+                android:scrollingCache="true"
+                android:smoothScrollbar="true">
+            </ListView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

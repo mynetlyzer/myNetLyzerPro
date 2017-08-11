@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+    <string name="app_name">WiFi分析仪</string>
+    <string name="app_copyright">版权 \u00A9 2015 \u002D 2017</string>
+
+    <string name="channel_rating_best">最佳信道:</string>
+    <string name="channel_rating_best_none">无</string>
+    <string name="channel_rating_best_alternative">,尝试其他WiFi频段</string>
+    <string name="channel_rating_heading_rating">信道评级</string>
+    <string name="channel_rating_heading_number">信道数</string>
+    <string name="channel_rating_heading_count">接入点计数</string>
+    <string name="channel_short_name">信道</string>
+
+
+    <string name="country_code_title">国家</string>
+    <string name="wifi_band_title">WiFi频段</string>
+    <string name="theme_title">主题</string>
+
+    <string name="login_with_amazon">Login with Amazon</string>
+    <string name="logout">Logout</string>
+    <string name="default_message">Welcome to Login with Amazon!\nIf this is your first time logging in, you will be asked to give permission for this application to access your profile data.</string>
+    <string name="login_button_content_description">"Button for authorization through Login with Amazon"</string>
+    <string name="return_to_app">Return to App</string>
+
+
+
+
+
+
+
+
+    <string name="title_activity_home">主页</string>
+    <string name="title_activity_speed_test">网络速度测试</string>
+    <string name="title_activity_log_data_consent">User Agreement for WiFi data analysis</string>
+    <string name="log_data_user_agreement">
+        为了提供最佳的助手来提高WiFi速度和性能，MyNetLyzer Pro 需要监控您的WiFi信号。 按“同意”与我们分享您的WiFi信号数据，或按“拒绝”或“以后决定”。 您可以稍后在设置中进行更改。
+    </string>
+    <string name="iap_instrunction_text">
+        MyNetlyzer Pro provides two subscription plan, you need to purchase one of them.
+    </string>
+    <string name="log_data_please_enter_email">请输入亚马逊电子邮件帐户，输入一个设备名字，然后按下一步 </string>
+    <string name="log_data_purchased_plan">已购买的计划</string>
+    <string name="agree">同意</string>
+    <string name="disagree">拒绝</string>
+    <string name="decidelater">以后决定</string>
+    <string name="six_months_subs">Subscription - 6 months</string>
+    <string name="six_months_subs_bought">Subscription - 6 months(Purchased)</string>
+    <string name="one_year_subs">Subscription - 1 year</string>
+    <string name="one_year_subs_bought">Subscription - 1 year(Purchased)</string>
+    <string name="next">下一步</string>
+    <string name="invalid_email_title">无效邮箱</string>
+    <string name="invalid_email_message">请输入有效邮箱</string>
+    <string name="invalid_subscription">Invalid Subscription</string>
+    <string name="invalid_subscription_message">Please purchase a subscription plan</string>
+
+    <string name="continue_button">Continue</string>
+    <string name="confirm_subscription">Confirmation</string>
+    <string name="already_have_subscription_message">You currently have one or more valid subscriptions. Are you sure you want to purchase selected subscription plan?</string>
+
+    <string name="email_exist_message">邮箱以及存在，请换另外一个邮箱</string>
+    <string name="data_logging_agreement_setting">数据纪录协议</string>
+    <string name="data_logging_subscription_setting">订阅计划</string>
+    <string name="not_set">未设置</string>
+
+    <string name="support_screen_instruction">请在桌面计算机上打开以下链接，并使用您的用户名和设备密钥登录。 您可以在设置屏幕中找到它们。</string>
+    <string name="support_screen_service_case_title">Service Case Number</string>
+    <string name="support_screen_service_case_default">Click the button below</string>
+    <string name="support_screen_connect_teamviewer_button_title">Connect Through TeamViewer</string>
+
+    <string name="action_speed_test">网络速度测试</string>
+    <string name="action_network_speed_test">网络速度测试</string>
+    <string name="action_network_scan">网络设备扫描</string>
+    <string name="action_settings">设置</string>
+    <string name="action_about">关于</string>
+    <string name="action_current_wifi">你的WiFi</string>
+    <string name="action_support">客户服务</string>
+
+    <string name="action_speed_test_description">网络速度测试</string>
+    <string name="action_network_speed_test_description">网络速度测试显示您的网络的下载速度和延迟响应。</string>
+    <string name="action_network_scan_description">扫描您当前的网络设备，并获取设备的IP地址和MAC地址。</string>
+    <string name="action_settings_description">国家，帐户信息和扫描间隔时间的设置。</string>
+    <string name="action_about_description">关于应用程序</string>
+    <string name="action_current_wifi_description">当前WiFi显示了使用信号强度和WiFi频段的可用网络的图形视图。</string>
+    <string name="action_support_description">由专家远程支持，分析和推荐您的网络操作。</string>
+    <string name="background_running_notice">MyNetLyzer Pro 在后台工作</string>
+
+
+    <string name="button_ok">确定</string>
+    <string name="button_cancel">取消</string>
+
+    <string name="device_key">设备名字和密钥 :</string>
+    <string name="username">用户名 :</string>
+
+
+</resources>

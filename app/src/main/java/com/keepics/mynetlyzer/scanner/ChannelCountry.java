@@ -1,0 +1,92 @@
+/*
+ * WiFiAnalyzer
+ * Copyright (C) 2017  VREM Software Development <VREMSoftwareDevelopment@gmail.com>
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>
+ */
+
+/*
+ * Modified by Keepics Inc, 2017
+ */
+
+package com.keepics.mynetlyzer.scanner;
+
+import android.support.annotation.NonNull;
+
+import org.apache.commons.lang3.StringUtils;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
+import java.util.SortedSet;
+
+public class ChannelCountry {
+    public static final String UNKNOWN = "-Unknown";
+
+    private static final Country COUNTRY = new Country();
+    private static final ChannelCountryGHZ2 WIFI_CHANNEL_GHZ2 = new ChannelCountryGHZ2();
+    private static final ChannelCountryGHZ5 WIFI_CHANNEL_GHZ5 = new ChannelCountryGHZ5();
+
+    private final Locale country;
+
+    private ChannelCountry(@NonNull Locale country) {
+        this.country = country;
+    }
+
+    public static ChannelCountry get(String countryCode) {
+        return new ChannelCountry(COUNTRY.getCountry(countryCode));
+    }
+
+    public static List<ChannelCountry> getAll() {
+        List<ChannelCountry> results = new ArrayList<>();
+        for (Locale locale : COUNTRY.getCountries()) {
+            results.add(new ChannelCountry(locale));
+        }
+        return results;
+    }
+
+    @NonNull
+    public String getCountryCode() {
+        String countryCode = this.country.getCountry();
+        if (countryCode == null) {
+            countryCode = StringUtils.EMPTY;
+        }
+        return countryCode;
+    }
+
+    @NonNull
+    public String getCountryName() {
+        String countryName = country.getDisplayCountry();
+        if (countryName == null) {
+            countryName = StringUtils.EMPTY;
+        }
+        return country.getCountry().equals(countryName) ? countryName + UNKNOWN : countryName;
+    }
+
+    public SortedSet<Integer> getChannelsGHZ2() {
+        return WIFI_CHANNEL_GHZ2.findChannels(country.getCountry());
+    }
+
+    public SortedSet<Integer> getChannelsGHZ5() {
+        return WIFI_CHANNEL_GHZ5.findChannels(country.getCountry());
+    }
+
+    boolean isChannelAvailableGHZ2(int channel) {
+        return getChannelsGHZ2().contains(channel);
+    }
+
+    boolean isChannelAvailableGHZ5(int channel) {
+        return getChannelsGHZ5().contains(channel);
+    }
+}

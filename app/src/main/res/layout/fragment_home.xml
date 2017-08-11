@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_home_id"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center_vertical"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context="com.keepics.mynetlyzer.home.HomeFragment">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="10dp"
+        android:background="@android:color/white">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="top|center_horizontal|center"
+            android:layout_gravity="center_horizontal"
+            >
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="70dp"
+                android:layout_gravity="right"
+                android:src="@drawable/appbrandx4" />
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:layout_gravity="top"-->
+                <!--android:gravity="top|center_horizontal|center"-->
+                <!--android:text="Home"-->
+                <!--android:textAlignment="center"-->
+                <!--android:textSize="24sp" />-->
+        </RelativeLayout>
+
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/home_fragment_item_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:background="@drawable/round_corner_band_switch"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:listSelector="@color/warning_color"
+        android:paddingBottom="@dimen/horizontal_margin_small"
+        android:paddingLeft="@dimen/horizontal_margin_small"
+        android:paddingRight="@dimen/horizontal_margin_small"
+        android:paddingTop="@dimen/horizontal_margin_small"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>
+
