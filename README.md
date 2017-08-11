@@ -24,7 +24,7 @@ https://vremsoftwaredevelopment.github.io/WiFiAnalyzer/
 ## License
 [<img src="https://www.gnu.org/graphics/gplv3-127x51.png" alt="GPLv3" >](http://www.gnu.org/licenses/gpl-3.0.html)
 
-myNetLyzer is licensed under the GNU General Public License v3.0 (GPLv3).
+myNetLyzer WiFI analyzer is licensed under the GNU General Public License v3.0 (GPLv3).
 
 ### GPLv3 License key requirements:
 * Disclose Source
